@@ -1,6 +1,6 @@
 # Management API
 
-The Management API provides a WebSocket-based JSON-RPC interface for dynamically managing mc-router's routing configuration without restarting the service.
+The Management API provides a WebSocket-based JSON-RPC interface for dynamically managing mc-router's routing configuration without restarting the service. This implementation does not depend on the now archived [config_service_lib](https://github.com/CloudinatorMC/config-service-lib), and follows design patterns similar to [Mojang’s latest server management APIs](https://minecraft.wiki/w/Minecraft_Server_Management_Protocol).
 
 ## Configuration
 
